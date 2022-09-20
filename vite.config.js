@@ -5,7 +5,7 @@ import vue from "@vitejs/plugin-vue";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: import.meta.env.VITE_XAMP_BASE_PATH,
+  base: import.meta.env.VITE_XAMP_BASEPATH, //ทำงานดึงค่าจาก .env ไม่ได้
   // base: "vue-vite-crma-app",
   plugins: [vue()],
   resolve: {

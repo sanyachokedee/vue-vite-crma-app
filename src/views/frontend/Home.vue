@@ -12,6 +12,7 @@
                   <p>url = {{url}}</p>
                   <p>UrlAPI = {{urlapi}}</p>
                   <p>url Title = {{urltitle}}</p>
+                  <p>base  = {{base}}</p>
                   
               </div>
               <div class="order-first w-full p-4 lg:w-7/12 lg:order-last">
@@ -29,7 +30,7 @@
         return {
             url: import.meta.env.VITE_APP_URL,
             urlapi: import.meta.env.VITE_APP_URL_API,
-            title: import.meta.env.VITE_APP_TITLE
+            title: import.meta.env.VITE_APP_TITLE,         
         }
     }
   }
